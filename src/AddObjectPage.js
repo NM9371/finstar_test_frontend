@@ -34,7 +34,6 @@ function AddObjectPage() {
       if (!response.ok) {
         throw new Error('Ошибка при добавлении объектов');
       }
-      // Обработка успешного ответа
     } catch (error) {
       console.error(error);
     }
